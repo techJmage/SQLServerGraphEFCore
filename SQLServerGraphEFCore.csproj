@@ -15,6 +15,7 @@
         <Copyright>Copyright 2023</Copyright>
         <OutputType>Library</OutputType>
         <LangVersion>preview</LangVersion>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <StartupObject />
         <AssemblyName>SQLServerGraphEFCore</AssemblyName>
         <IsPackable>true</IsPackable>
