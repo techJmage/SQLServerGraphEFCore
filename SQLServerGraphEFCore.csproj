@@ -4,7 +4,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Title>SQLServerGraphEFCore</Title>
-        <Version>3.1.3</Version>
+        <Version>3.1.4</Version>
         <Authors>Tech J Mage</Authors>
         <PackageProjectUrl>https://github.com/techJmage/SQLServerGraphEFCore</PackageProjectUrl>
         <Description>
@@ -33,9 +33,9 @@
 
     <ItemGroup>
         <PackageReference Include="Azure.Identity" Version="1.13.2" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.2" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.4" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
         <PackageReference Include="Utility.Disposable" Version="1.1.2" />
     </ItemGroup>
 

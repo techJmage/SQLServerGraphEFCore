@@ -75,13 +75,8 @@ internal class QueryBuilder : IQueryBuilder
             return AddParam(name, value?.ToString());
     }
 
-    public IQueryBuilder AddParam<T>(string name, object val, bool isNullable) where T : struct
-    {
-        if (isNullable)
-            return AddParam(name, (T?)val);
-        else
-            return AddParam(name, (T)val);
-    }
+    public IQueryBuilder AddParam<T>(string name, object val, bool isNullable) where T : struct =>
+        isNullable ? AddParam(name, (T?)val) : AddParam(name, (T)val);
 
     public IQueryBuilder AddParam<T>(string name, T val, out IOutParam<T> outParam)
     {
